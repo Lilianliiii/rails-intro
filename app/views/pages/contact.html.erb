@@ -1,0 +1,13 @@
+<h1>Contact Us</h1>
+
+<%# <% students = ["Seb", "Denisa", "Justin", "Hanan", "Aneta", "Elaine", "Lilian"] %>
+
+<h3>Here are all the students in Batch #1296:</h3>
+
+<ul>
+  <% @students.each do |student| %>
+    <li><%= student %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Go back to home", root_path %>
